@@ -1,0 +1,10 @@
+{
+    "plateNo": ["ABX123", "NMP432", "PAK988"],
+    "make": ["toyota", "mazda", "honda"],
+    "model": ["corolla", "lll", "civic"],
+
+    "car": [
+        {"plateNo": "toyota", "make": "toyota", "model": "corolla"}
+    ]
+}
+

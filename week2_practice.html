@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <!-- <link rel="stylesheet" href="styles.css" /> -->
+  </head>
+  <body>
+    <h1>This is a simple HTML + CSS template!</h1>
+    <script>
+      var carsList = {
+        plateNo: ["ABX123", "PAK988", "EOU321"],
+        make: ["toyota", "mazda", "honda"],
+        model: ["corolla", "lll", "civic"],
+      };
+      var carsList2 = [
+        { plateNo: "ABX123", make: "toyota", model: "corolla", price: "15000" },
+        { plateNo: "PAK988", make: "mazda", model: "lll", price: "12000" },
+        { plateNo: "EOU321", make: "honda", model: "civic", price: "20000" },
+      ];
+      carsList.plateNo.push("TRX234");
+      carsList.make.push("2009");
+      carsList.model.push("Tesla");
+      carsList2.push({ plateNo: "RFT345", make: "samsung" });
+      carsList2.push({ plateNo: "FGD455", make: "Ford" });
+      document.write("<b>" + carsList.model[0] + "</b>");
+    console.log('?????????????')
+      document.write("<b>" + carsList2[0].make + "</b>");
+      document.write("<br>");
+      document.write("<b>" + carsList2[carsList2.length - 1].make + "</b>");
+      var car = carsList2[0];
+      document.write(
+        "How to add number even though they are strings: " +
+          car.price * 1 +
+          car.price * 1
+      );
+    </script>
+  </body>
+</html>
