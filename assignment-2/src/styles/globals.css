@@ -1,0 +1,47 @@
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family:'Courier New', Courier, monospace
+}
+
+.contact-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.contact-item {
+  background-color: #d5dada;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 2rem;
+  margin: 1rem;
+  width: 18rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.contact-item:hover {
+  transform: scale(1.05);
+}
+
+.contact-name {
+  font-size: 1.5em;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.contact-email {
+  font-size: 1em;
+  color: #666;
+}
+
+.contact-list h1 {
+  color: #333;
+  margin-bottom: 2rem;
+  border-bottom: 10px solid #657eb7;
+  border-radius: 10px;
+}

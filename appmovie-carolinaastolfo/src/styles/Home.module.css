@@ -1,0 +1,8 @@
+.movie-list, .header, .movie-more {
+    padding: 5rem;
+    margin: auto auto;
+}
+
+body {
+ background-color: rgb(238,174,202);   
+}

@@ -1,0 +1,79 @@
+body {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,0.8800770308123249) 100%); 
+    margin-left: 15rem;
+    margin-top: 5rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.movie-list {
+    padding-left: 2rem;
+}
+
+/* got this btn style from the internet and made some adjustments*/
+.button-1 {
+  background-color: #EA4C89;
+  border-radius: 0.8rem;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 500;
+  height: 4rem;
+  line-height: 1rem;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.6rem;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover {
+  background-color: #F082AC;
+}
+
+.button-2 {
+    background-color: #EA4C89;
+    border-radius: 0.8rem;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 500;
+    height: 2rem;
+    line-height: 1rem;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 0.5rem 0.8rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-2:hover {
+    background-color: #F082AC;
+  }
+
+  #txt_fname, #txt_lname {
+    background: transparent;
+    border: solid #EA4C89 0.1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
